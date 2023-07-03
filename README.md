@@ -1,5 +1,9 @@
 # unmtm_infra
 unmtm Infra repository
+
+testapp_IP = 130.193.52.103
+testapp_port = 9292
+
 Подключиться к someinternalhost можно с помощью команды 
 ssh -J appuser@158.160.74.247 appuser@10.129.0.28
 
