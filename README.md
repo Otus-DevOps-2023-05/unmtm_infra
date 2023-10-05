@@ -1,4 +1,10 @@
 # unmtm_infra
+homework 7 - Packer
+
+Создан файл ubuntu16_base.json для создания образа.
+Создан файл ubuntu16.json и variables.json (variables.json.example) для создания образа с переменными вынесенными в отдельный файл.
+
+
 unmtm Infra repository
 
 testapp_IP = 130.193.52.103
