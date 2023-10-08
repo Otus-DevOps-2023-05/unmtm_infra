@@ -1,4 +1,11 @@
 # unmtm_infra
+homework 8 - Terraform
+main.tf - создание VM в YC из базового образа созданного с помощью Packer
+outputs.tf - выходные переменные 
+variables.tf - описание входных переменных 
+terraform.tfvars - значение входных переменных 
+terraform.tfvars.example - примеры входных переменных
+
 homework 7 - Packer
 
 Создан файл ubuntu16_base.json для создания образа.
