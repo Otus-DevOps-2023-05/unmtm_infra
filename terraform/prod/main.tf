@@ -1,9 +1,8 @@
 terraform {
-  required_version = ">= 1.1.6"
   required_providers {
     yandex = {
       source  = "yandex-cloud/yandex"
-      version = ">= 0.87.0"
+      version = ">= 0.99.1"
     }
   }
 }
@@ -16,15 +15,21 @@ provider "yandex" {
 }
 
 module "app" {
-  source          = "../modules/app"
-  public_key_path = var.public_key_path
-  app_disk_image  = var.app_disk_image
-  subnet_id       = var.subnet_id
+  source              = "../modules/app"
+  public_key_path     = var.public_key_path
+  app_disk_image      = var.app_disk_image
+  subnet_id           = var.subnet_id
+  stage               = var.stage
+  private_key_path    = var.private_key_path
+  mongod_ip           = module.db.internal_ip_address_db
+  depends_on          = [module.db]
 }
 
 module "db" {
-  source          = "../modules/db"
-  public_key_path = var.public_key_path
-  db_disk_image   = var.db_disk_image
-  subnet_id       = var.subnet_id
+  source              = "../modules/db"
+  public_key_path     = var.public_key_path
+  db_disk_image       = var.db_disk_image
+  subnet_id           = var.subnet_id
+  stage               = var.stage
+  private_key_path    = var.private_key_path
 }
