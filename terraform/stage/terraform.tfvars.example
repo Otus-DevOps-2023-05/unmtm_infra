@@ -1,0 +1,12 @@
+cloud_id                 = "xxxxxxxxxxxxxxxxxxxx"
+folder_id                = "xxxxxxxxxxxxxxxxxxxx"
+zone                     = "ru-central1-a"
+image_id                 = "xxxxxxxxxxxxxxxxxxxx"
+public_key_path          = "~/.ssh/id_rsa.pub"
+private_key_path         = "~/.ssh/id_rsa"
+subnet_id                = "xxxxxxxxxxxxxxxxxxxx"
+service_account_key_file = "~/Key/key.json"
+count_instance           = 1
+app_disk_image           = "xxxxxxxxxxxxxxxxxxxx"
+db_disk_image            = "xxxxxxxxxxxxxxxxxxxx"
+stage                    = "stage"
