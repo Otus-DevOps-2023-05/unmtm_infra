@@ -1,5 +1,13 @@
 # unmtm_infra
-homework 8 - Terraform
+
+homework Ansible 1
+
+Созданы файлы inventory для статического json (inventory.json)
+
+homework Terraform 2
+Реализован деплой stage и prod окружение с помощью созданных модулей app и db с сохранением состояния.
+
+homework Terraform - 1
 main.tf - создание VM в YC из базового образа созданного с помощью Packer
 outputs.tf - выходные переменные 
 variables.tf - описание входных переменных 
