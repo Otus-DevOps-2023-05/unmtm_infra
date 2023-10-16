@@ -1,5 +1,10 @@
 # unmtm_infra
 
+homework Ansible 2
+
+Протестированы предложенные варианты конфигурирования инфраструктуры с использованием Ansible.
+Протестирован provisioning в Packer с использованием плейбуков Ansible.
+
 homework Ansible 1
 
 Созданы файлы inventory для статического json (inventory.json)
