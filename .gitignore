@@ -42,3 +42,5 @@ secrets.*
 
 # for compatibility with old OTUS tests (terraform v0.12.x)
 versions.tf
+
+*.retry
