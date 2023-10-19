@@ -44,3 +44,7 @@ secrets.*
 versions.tf
 
 *.retry
+
+## ansible
+**/roles/jdauphantnginx/*
+jdauphant.nginx
