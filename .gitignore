@@ -46,5 +46,5 @@ versions.tf
 *.retry
 
 ## ansible
-**/roles/jdauphantnginx/*
-jdauphant.nginx
+#**/roles/jdauphantnginx/*
+#jdauphant.nginx
